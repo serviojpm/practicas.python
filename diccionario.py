@@ -1,4 +1,4 @@
-diccionario = {'a':True, 5:'Esto es un string',  (1, 2):False} #Los valores deben de ser inmutables tal como los enteros, strings y tuplas.
+diccionario = {'a':True, 5:'Esto es un string',  (1, 2):False} #Las claves deben de ser inmutables tal como los enteros, strings y tuplas.
 print(diccionario)
 
 diccionario = {'a':True, 5:'Esto es un string',  (1, 2):False,  'a':100} #Si una llave se repite, toma siempre el ultimo valor
