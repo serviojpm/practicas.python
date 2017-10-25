@@ -2,7 +2,6 @@ def panprimo(n):
 	numstr = str(n)
 	cero,uno,dos,tres,cuatro,cinco,seis,siete,ocho,nueve = 0,0,0,0,0,0,0,0,0,0
 	primo = int(numstr[-3:])
-	print(primo)
 	for i in numstr:
 		if i == "0":
 			cero = 1
